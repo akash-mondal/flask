@@ -8,7 +8,7 @@ def index():
     return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
 
 @app.route('/dial')
-def java_code():
+def dial():
     code = """
 import java.util.*;
 public class Graph {
