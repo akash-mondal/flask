@@ -4,10 +4,10 @@ import os
 app = Flask(__name__)
 
 @app.route('/')
-def index():
+def index():    
     return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
 
-@app.route('/java_code')
+@app.route('/dial')
 def java_code():
     code = """
 import java.util.*;
